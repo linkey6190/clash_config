@@ -12,9 +12,9 @@ ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ch
 ruleset=DIRECT,[]GEOIP,CN
 ruleset=🎈 其余流量,[]FINAL
 
+custom_proxy_group=☁️ 代理选择`select`[]⚡ 自动选择`[]🔮 负载均衡`[]✏️ 手动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🇺🇲 美国节点`
 custom_proxy_group=⚡ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300
 custom_proxy_group=🔮 负载均衡`load-balance`(香港)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=☁️ 代理选择`select`[]⚡ 自动选择`[]🔮 负载均衡`[]✏️ 手动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🇺🇲 美国节点`
 custom_proxy_group=✏️ 手动选择`select`.*
 custom_proxy_group=🇭🇰 香港节点`url-test`(香港)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇨🇳 台湾节点`url-test`(台湾)`http://www.gstatic.com/generate_204`300,,50
