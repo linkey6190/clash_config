@@ -22,18 +22,18 @@ ruleset=🐟 FALLBACK,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🇸🇬 新加坡`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇰🇷 韩国`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇺🇲 美国`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🚀 手动切换`select`.*
 custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=📲 Telegram`select`[]🇭🇰 香港
-custom_proxy_group=💬 AI`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 新加坡`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=📹 YouTube`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 新加坡`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=💬 AI`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇨🇳 台湾`[]🇰🇷 韩国`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇺🇲 美国`[]🚀 手动切换
+custom_proxy_group=📹 YouTube`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇰🇷 韩国`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇺🇲 美国`[]🚀 手动切换
 custom_proxy_group=📺 哔哩哔哩`select`[]🎯 全球直连`[]🇨🇳 台湾`[]🇭🇰 香港
-custom_proxy_group=🍎 苹果服务`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 新加坡`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🍎 苹果服务`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇰🇷 韩国`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇺🇲 美国`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
-custom_proxy_group=🐟 FALLBACK`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 新加坡`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🐟 FALLBACK`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇰🇷 韩国`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇺🇲 美国`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=🇭🇰 香港`url-test`(港|HK|hk|Hong Kong|HongKong|hongkong)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇯🇵 日本`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇺🇲 美国`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,150
