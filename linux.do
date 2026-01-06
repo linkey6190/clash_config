@@ -1,7 +1,6 @@
 ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 ruleset=💬 AI,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
 ruleset=📹 YouTube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
-ruleset=🛑 ADblock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=☁️ 代理选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=☁️ 代理选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=☁️ 代理选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
@@ -20,7 +19,7 @@ custom_proxy_group=☁️ 代理选择`select`[]⚡ 自动选择`[]✏️ 手动
 custom_proxy_group=⚡ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300
 custom_proxy_group=✏️ 手动选择`select`.*
 custom_proxy_group=📲 Telegram`select`[]✏️ 手动选择`[]🇭🇰 香港`
-custom_proxy_group=💬 Ai`select`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇲 美国`[]
+custom_proxy_group=💬 AI`select`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇲 美国`[]
 custom_proxy_group=📹 YouTube`select`[]⚡ 自动选择`[]✏️ 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇲 美国`
 custom_proxy_group=🛑 ADblock`select`[]REJECT`[]DIRECT
 custom_proxy_group=🇭🇰 香港`url-test`(港|HK|hk|Hong Kong|HongKong|hongkong)`http://www.gstatic.com/generate_204`300,,50
