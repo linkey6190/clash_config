@@ -16,7 +16,7 @@ ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ch
 ruleset=DIRECT,[]GEOIP,CN
 ruleset=Fallback,[]FINAL
 
-custom_proxy_group=☁️ 代理选择`select`[]⚡ 自动选择`[]✏️ 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇲 美国`[]🔮 负载均衡
+custom_proxy_group=☁️ 代理选择`select`[]⚡ 自动选择`[]✏️ 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇲 美国`[]
 custom_proxy_group=⚡ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300
 custom_proxy_group=✏️ 手动选择`select`.*
 custom_proxy_group=📲 Telegram`select`[]✏️ 手动选择`[]🇭🇰 香港`
@@ -29,8 +29,7 @@ custom_proxy_group=🇸🇬 新加坡`url-test`(新加坡|坡|狮城|SG|Singapor
 custom_proxy_group=🇯🇵 日本`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇰🇷 韩国`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇺🇲 美国`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=🔮 负载均衡`load-balance`(香港)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=Fallback`select`[]☁️ 代理选择`[]DIRECT
+custom_proxy_group=Fallback`select`[]☁️ 代理选择`select`[]⚡ 自动选择`[]✏️ 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇲 美国`[]
 
 enable_rule_generator=true
 overwrite_original_rules=true
