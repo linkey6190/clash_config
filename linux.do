@@ -21,7 +21,6 @@ custom_proxy_group=✏️ 手动选择`select`.*
 custom_proxy_group=📲 Telegram`select`[]✏️ 手动选择`[]🇭🇰 香港`
 custom_proxy_group=💬 AI`select`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇲 美国`[]
 custom_proxy_group=📹 YouTube`select`[]⚡ 自动选择`[]✏️ 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 新加坡`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇲 美国`
-custom_proxy_group=🛑 ADblock`select`[]REJECT`[]DIRECT
 custom_proxy_group=🇭🇰 香港`url-test`(港|HK|hk|Hong Kong|HongKong|hongkong)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇨🇳 台湾`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇸🇬 新加坡`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
